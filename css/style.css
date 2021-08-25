@@ -602,11 +602,11 @@ h6 {
 }
 
 .mySwiper {
-  overflow: hidden;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 330px;
           flex: 0 0 330px;
   min-width: 0;
+  overflow:  hidden !important; 
   margin: 0 !important;
 }
 @media (max-width: 1100px) {
